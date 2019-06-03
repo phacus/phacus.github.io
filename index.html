@@ -8,6 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- import Google Font Noto Sans TC -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
     <title>Phacus</title>
   </head>
   <body>
@@ -17,34 +23,62 @@
         <div class="col-md-2 bg-light vh-100">
           <div class="text-center">
             <hr>
-            <img src="#" class="img-fluid rounded-circle" style="width: 60%;">
-            <h2>name</h2>
+            <img src="./img/profile.jpg" class="img-fluid rounded-circle" style="width: 60%;">
+            <h2>張名宏</h2>
+            <div class="row justify-content-center">
+              <a href="https://www.facebook.com/profile.php?id=100000474060816" target="_blank"><img src="./img/f_logo_RGB-Blue_58.png" class="img-fluid"></a>
+              <a href="https://github.com/phacus" target="_blank"><img src="./img/GitHub-Mark-64px.png" class="img-fluid"></a>
+              <a href="mailto:kos147258@gmail.com" target="_blank"><img src="./img/icons8-secured-letter-64.png" class="img-fluid"></a>
+            </div>
             <hr>
           </div>
           <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">About</a>
-            <a class="nav-link" id="v-pills-experience-tab" data-toggle="pill" href="#v-pills-experience" role="tab" aria-controls="v-pills-experience" aria-selected="false">Experience</a>
-            <a class="nav-link" id="v-pills-skill-tab" data-toggle="pill" href="#v-pills-skill" role="tab" aria-controls="v-pills-skill" aria-selected="false">Skills</a>
-            <a class="nav-link" id="v-pills-project-tab" data-toggle="pill" href="#v-pills-project" role="tab" aria-controls="v-pills-project" aria-selected="false">Projects</a>
+            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">關於我 About</a>
+            <a class="nav-link" id="v-pills-experience-tab" data-toggle="pill" href="#v-pills-experience" role="tab" aria-controls="v-pills-experience" aria-selected="false">經驗 Experience</a>
+            <a class="nav-link" id="v-pills-skill-tab" data-toggle="pill" href="#v-pills-skill" role="tab" aria-controls="v-pills-skill" aria-selected="false">技能 Skills</a>
+            <a class="nav-link" id="v-pills-project-tab" data-toggle="pill" href="#v-pills-project" role="tab" aria-controls="v-pills-project" aria-selected="false">作品 Projects</a>
+            <a class="nav-link" id="v-pills-reference-tab" data-toggle="pill" href="#v-pills-reference" role="tab" aria-controls="v-pills-reference" aria-selected="false">參考資料 References</a>
           </div>
         </div>
-        <div class="col-md-10 my-auto">
+        <div class="col-md-10 p-5">
           <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
               <h1>About</h1>
               <hr>
-            </div>
+              <p>
+                Hi, 我是張名宏，台南人，畢業於國立高雄大學資訊工程學系。<br>
+                
+              </p>
+              </div>
             <div class="tab-pane fade" id="v-pills-experience" role="tabpanel" aria-labelledby="v-pills-experience-tab">
               <h1>Experience</h1>
               <hr>
-              <h2>Education</h2>
+              <!-- <h3>Education</h3> -->
+              <h5>2015.09~2018.06</h5>
+              National University of Kaohsiung, Department of Computer Science 
+              國立高雄大學 資訊工程學系(畢業)
+              <h5>2013.09~2015.08</h5>
+              National University of Kaohsiung, Department of information Management
+              國立高雄大學 資訊管理學系(2015.09轉至資工系)
             </div>
             <div class="tab-pane fade" id="v-pills-skill" role="tabpanel" aria-labelledby="v-pills-skill-tab">
               <h1>Skills</h1>
               <hr>
               <div class="row">
-                <div class="col"><h3>Language</h3></div>
-                <div class="col"><h3>Tools</h3></div>
+                <div class="col">
+                  <h3>Language</h3>
+                  <hr>
+                  <li>Python</li>
+                  <li>C/C++</li>
+                  <li>HTML + CSS</li>
+                </div>
+                <div class="col">
+                  <h3>Tools</h3>
+                  <hr>
+                  <li>Git/Github</li>
+                  <li>Visual Studio Code</li>
+                  <li>Linux</li>
+                </div>
               </div>
             </div>
             <div class="tab-pane fade" id="v-pills-project" role="tabpanel" aria-labelledby="v-pills-project-tab">
@@ -64,6 +98,18 @@
                 </div>
                 <div class="col">Description</div>
               </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-reference" role="tabpanel" aria-labelledby="v-pills-reference-tab">
+              <h1>References</h1>
+              <hr>
+              <h3>Icons</h3>
+              <a href="https://icons8.com/icon/65357/secured-letter">Secured Letter icon by Icons8</a><br>
+              <a href="https://github.com/logos">Github icon</a><br>
+              <a href="https://en.facebookbrand.com/">Facebook icon</a>
+              <h3>Fonts</h3>
+              <a href="https://fonts.google.com/specimen/Noto+Sans+TC?selection.family=Noto+Sans+TC">Google Fonts 思源黑體</a>
+              <h3>Used libraries</h3>
+              <a href="https://getbootstrap.com/">Bootstrap</a>
             </div>
           </div>
         </div>
